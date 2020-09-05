@@ -1,3 +1,32 @@
 // Place all the styles related to the Index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.one-page{
+    width: 97vw;
+    height: 100vh;
+}
+.outline{
+    text-shadow:0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white,0 0 20px white;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 60px;
+}
+input[type="button"][name="login"]{
+    font-size: 2.7em;
+    padding: 20px 30px;
+    border-radius:15px;
+}
+input[type="button"][name="new-account"]{
+    font-size: 2.7em;
+    padding: 20px 30px;
+    border-radius:15px;
+}
+
+// #waku{
+//     border: 1px solid #000000;
+//     width: 100vw;
+//     height: 100vh;
+// }
