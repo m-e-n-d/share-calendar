@@ -5,8 +5,10 @@
         <tr>
             <td align="center">
                 <h1 class="outline">無駄な時間に、さようなら</h1>
-                <input type="button" name="login" value="ログイン">　
-                <input type="button" name="new-account" value="新規登録">
+                <table>
+                <%= button_to "ログイン", {controller: "session", action: "new"}, method: "get", name: "login-link" %>
+                <%= button_to "新規登録", {controller: "users", action: "new"}, method: "get", name: "user-register-link"%>
+                </table>
             </td>
         </tr>
     </table>

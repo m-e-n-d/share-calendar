@@ -1,3 +1,14 @@
 // Place all the styles related to the session controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+div.login_page{
+  background: image-url('calendar_back.jpg') center / cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 90vh;
+}
+
+h1.login_page {
+  padding: 30px;
+  font-size: 50px;
+}

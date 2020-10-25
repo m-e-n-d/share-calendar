@@ -1,8 +1,13 @@
+<div class="login_page">
+
+<center>
+<h1 class="login_page">ようこそ、ログインしてください。</h1>	
 <%= form_for(:session, url: login_path) do |f| %>
   <%= f.label "ユーザー名" %>
   <%= f.text_field :user_name, placeholder: "ユーザー名" %>
   <%= f.label "パスワード" %>
   <%= f.password_field :password_digest, placeholder: "パスワード" %>
-
-  <%= f.submit "ログイン" %>
+  <br><%= f.submit "Log In!" %>
 <% end %>
+</center>
+</div>
