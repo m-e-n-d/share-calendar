@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start_time: 2020-09-27 11:16:36
+  end_time: 2020-09-27 11:16:36
+  public_flag: false
+  allday_flag: false
+  genre: MyString
+
+two:
+  title: MyString
+  start_time: 2020-09-27 11:16:36
+  end_time: 2020-09-27 11:16:36
+  public_flag: false
+  allday_flag: false
+  genre: MyString

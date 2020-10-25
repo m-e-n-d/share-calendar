@@ -10,14 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_02_025513) do
+ActiveRecord::Schema.define(version: 2020_09_27_021636) do
 
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "password"
-    t.string "display_name"
+  create_table "calendars", force: :cascade do |t|
+    t.string "title"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.boolean "public_flag"
+    t.boolean "allday_flag"
+    t.string "genre"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+# Could not dump table "users" because of following StandardError
+#   Unknown type 'password_digest' for column 'password'
 
 end
